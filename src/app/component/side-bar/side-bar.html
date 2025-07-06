@@ -1,11 +1,13 @@
 <aside class="sidebar">
-    <h2 class="sidebar-title">Playlist</h2>
-    <nav class="playlist-nav">
-      <a routerLink="#" class="playlist-link">Playlist 1</a>
-      <a routerLink="#" class="playlist-link">Playlist 2</a>
-      <a routerLink="#" class="playlist-link">Playlist 3</a>
-      <a routerLink="#" class="playlist-link">Playlist 4</a>
-      <a routerLink="#" class="playlist-link">Playlist 5</a>
-    </nav>
-  </aside>
-  
+  <h2 class="sidebar-title">Tus Playlist </h2>
+  <nav class="playlist-nav">
+    @for(lista of playlist; track lista.id){
+      <div class="pl">
+        <div class="playlist-item">
+          <img src={{lista.imagen}} alt="" width="20px" height="20px">
+          <a routerLink="#" class="playlist-link">{{lista.nombre}}</a>
+        </div>
+      </div>
+    }
+  </nav>
+</aside>
