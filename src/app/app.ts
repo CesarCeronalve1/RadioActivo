@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Header } from "./component/header/header";
 import { Footer } from './component/footer/footer';
@@ -12,4 +12,5 @@ import { SideBar } from './component/side-bar/side-bar';
 })
 export class App {
   protected title = 'RadioActivo';
+
 }

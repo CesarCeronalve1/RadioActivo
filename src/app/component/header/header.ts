@@ -8,5 +8,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.css'
 })
 export class Header {
-
+  titulo:string = 'RadioActivo';
 }
