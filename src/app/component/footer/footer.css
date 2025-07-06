@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 14px;
+    border-top: 1px solid var(--color-secundario);
+    border-radius: 3px;
+  }
+  
+
+  
+  .footer-right {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .footer-link {
+    color: var(--color-texto);
+    text-decoration: none;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .footer-link:hover {
+    color: var(--color-principal);
+  }
+  

@@ -1,0 +1,42 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--color-secundario);
+    border-radius: 10px;
+  }
+  
+  .sidebar-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--color-secundario);
+    padding-bottom: 8px;
+  }
+  
+  .playlist-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+  }
+  
+  .playlist-link {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .playlist-link:hover {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+  }
+  

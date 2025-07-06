@@ -1,0 +1,82 @@
+header {
+    background-color: var(--color-fondo);
+    padding: 12px 24px;
+    color: var(--color-texto);
+    border-bottom: 2px groove var(--color-principal);
+    border-radius: 3px;
+  }
+  
+  .CabeceraPadre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .CabeceraIzquierda {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .home-icon {
+    font-size: 22px;
+    color: var(--color-texto);
+    text-decoration: none;
+  }
+  
+  .CabeceraCentro {
+    flex-grow: 1;
+    max-width: 400px;
+    margin: 0 24px;
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px 32px 8px 12px;
+    border-radius: 40px;
+    border: 3px solid var(--color-secundario);
+    background-color: var(--color-fondo); /* Puedes definir una variable si quieres */
+    color: var(--color-texto);
+  }
+  .search-bar input:focus{
+    width: 100%;
+    padding: 8px 32px 8px 12px;
+    border-radius: 40px;
+    border: 3px solid var(--color-principal);
+    background-color: var(--color-fondo); /* Puedes definir una variable si quieres */
+    color: var(--color-texto);
+  }
+
+  
+  .search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-principal); /* Puedes definir una variable si quieres */
+  }
+  
+  .CabeceraDerecha {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .auth-button {
+    background: none;
+    border: 1px solid var(--color-principal);
+    color: var(--color-principal);
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+  }
