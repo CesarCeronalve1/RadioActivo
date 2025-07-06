@@ -87,3 +87,7 @@ header {
     background-color: var(--color-principal);
     color: var(--color-fondo);
   }
+  a{
+    text-decoration:none;
+    color:inherit;
+  }

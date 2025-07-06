@@ -1,0 +1,14 @@
+.MacroLetrero{
+    font-size: 80px;
+    color:var(--color-secundario);
+}
+.texto{
+    font-size: 40px;
+    color:var(--color-texto);
+}
+.cont{
+    display: inline;
+    align-items: center;
+    text-align: center;
+
+}

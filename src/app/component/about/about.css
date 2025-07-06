@@ -1,0 +1,22 @@
+.Titulo{
+text-align: center;
+color:var(--color-Principal);
+font-size: 40px;
+}
+.Subtitulo{
+    text-align: left;
+    color:var(--color-Principal);
+    font-size: 30px;
+
+}
+.Texto{
+    text-align: justify;
+    font-size: 14px;
+    color:var(--color-secundario);
+}
+.contenedor-texto{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 5%px;
+    margin-bottom: 5%;    
+}

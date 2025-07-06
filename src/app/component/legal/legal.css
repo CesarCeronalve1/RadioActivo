@@ -1,0 +1,25 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+.Titulo{
+    text-align: center;
+    color:var(--color-Principal);
+    font-size: 40px;
+    }
+    .Subtitulo{
+        text-align: left;
+        color:var(--color-Principal);
+        font-size: 30px;
+    
+    }
+    .Texto{
+        text-align: justify;
+        font-size: 18px;
+        color:var(--color-texto);
+    }
+    .contenedor-texto{
+        margin-left:15%;
+        margin-right:15%;
+        margin-top: 5%px;
+        margin-bottom: 5%;    
+    }
