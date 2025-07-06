@@ -1,0 +1,9 @@
+.contenido {
+    flex: 1;
+    display: flex;
+}
+
+.contenido main {
+    flex: 1;
+    padding-left: 30px ;
+}

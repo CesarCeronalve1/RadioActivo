@@ -1,0 +1,13 @@
+.reproductor{
+    align-items: center;
+    position: fixed;
+    display: flex;
+    bottom: 0;        /* <-- Lo ubica en la parte inferior */
+    left: 0;  
+    background-color: var(--color-fondo);
+    width: 100%;
+    height: 80px;   
+    border: 2px solid var(--color-principal);
+    border-radius: 10px;
+    padding: 10px;;
+}
