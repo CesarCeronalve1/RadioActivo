@@ -1,0 +1,47 @@
+.TarjetaCancion {
+    width: 180px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--color-fondo);
+    box-shadow: 0px 0px 10px var(--color-secundario);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .TarjetaCancion:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px var(--color-principal);
+  }
+  
+  .TarjetaCancion img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px var(--color-texto);
+  }
+  
+  .InfoCard {
+    padding: 10px;
+  }
+  
+  .Title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-principal);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .Artist {
+    font-size: 12px;
+    color: var(--color-texto);
+    margin: 5px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

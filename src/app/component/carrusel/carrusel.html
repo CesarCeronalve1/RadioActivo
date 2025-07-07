@@ -1,0 +1,12 @@
+<div class="Carrucel-container">
+    <button class="arrow left" (click)="scrollLeft()">&lt;</button>
+  
+    <div #carrucel class="Carrucel">
+      <div *ngFor="let _ of [].constructor(20); let i = index">
+        <app-card [Titulo]="'Título ' + (i + 1)"></app-card>
+      </div>
+    </div>
+  
+    <button class="arrow right" (click)="scrollRight()">&gt;</button>
+  </div>
+  

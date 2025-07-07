@@ -1,0 +1,40 @@
+.Carrucel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 75vw; /* Máximo ancho viewport */
+    overflow: hidden; /* Oculta contenido que se salga del contenedor */
+  
+  }
+  
+  .Carrucel {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    overflow-x: auto; /* Scroll horizontal para los elementos que excedan */
+    scroll-behavior: smooth;
+    max-width: 100%; /* Para que no supere el ancho del contenedor */
+    scrollbar-width: none;
+  }
+  
+  .Carrucel::-webkit-scrollbar {
+    display: none;
+  }
+  .arrow {
+    background-color: var(--color-fondo);
+    border: none;
+    color: var(--color-texto);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px 12px;
+    user-select: none;
+    border-radius: 4px;
+    margin: 0 5px;
+  
+  }
+  
+  .arrow:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
