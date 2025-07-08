@@ -12,7 +12,7 @@ export class Card {
 
   @Input() Titulo: string = 'Cancion Title';
   @Input() imagen: string = 'Logo.png';
-  @Input() artist: string[] = ["Artist", "artist2"];
+  @Input() artist: string[] = ["Artist"];
 
 
 }

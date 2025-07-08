@@ -1,12 +1,15 @@
 <div class="Carrucel-container">
+  <h2 class="TituloCarrusel">{{TituloCarrusel}}</h2>
+
+  <div class="Carrucel-wrapper">
     <button class="arrow left" (click)="scrollLeft()">&lt;</button>
-  
+
     <div #carrucel class="Carrucel">
-      <div *ngFor="let _ of [].constructor(20); let i = index">
-        <app-card [Titulo]="'Título ' + (i + 1)"></app-card>
+      <div *ngFor="let tarjeta of tarjetas; let i = index">
+        <app-card [Titulo]="tarjeta.titulo" [artist]="tarjeta.artist" [imagen]="tarjeta.imagen"></app-card>
       </div>
     </div>
-  
+
     <button class="arrow right" (click)="scrollRight()">&gt;</button>
   </div>
-  
+</div>

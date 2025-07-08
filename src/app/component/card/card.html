@@ -1,7 +1,12 @@
 <div class="TarjetaCancion">
-    <img [src]="imagen" alt="imagen de album"/>
+    <a href="/cancion/{{Titulo}}">
+      <img [src]="imagen" alt="imagen de album"/>
+    </a>
     <div class="InfoCard">
-        <p class="Title">{{Titulo}}</p>
-        <p class="Artist">{{artist.join(', ')}}</p>
+      <p class="Title">{{Titulo}}</p>
+      <ng-container *ngFor="let ar of artist; let i = index">
+        <a class="Artist" [href]="'/artist/' + ar">{{ ar }}</a><span *ngIf="i < artist.length - 1">, </span>
+      </ng-container>
     </div>
-</div>
+  </div>
+  
