@@ -1,0 +1,34 @@
+.FormEntrar {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid var(--color-texto);
+    border-radius: 10px;
+  }
+  .FormEntrar label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .FormEntrar input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid var(--color-texto);
+    border-radius: 5px;
+  }
+  .FormEntrar button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .FormEntrar button:hover {
+    background-color: var(--color-texto);
+  }
+  .FormEntrar input,
+.FormEntrar button {
+  box-sizing: border-box;
+}
